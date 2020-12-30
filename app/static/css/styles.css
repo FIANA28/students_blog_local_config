@@ -1,0 +1,228 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.navbar {
+    margin-bottom: 0; 
+}
+
+div a {
+    color: white;
+}
+
+div p a, .nav-tabs li a {
+    color: #3a93d3f1;
+}
+
+.navbar-toggle:hover {
+    background-color:  #b2c5d389; 
+}
+.icon-bar {
+    background-color: white; 
+}
+
+.font-logo, .footer {
+    color: white;
+    font-family: 'Ranchers', cursive;
+    font-size: 150%;
+}
+
+.profile-thumbnail {
+    position: absolute;
+}
+
+.profile-header {
+    min-height: 260px;
+    margin-left: 280px;
+}
+
+.container_bgr {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: #aebbc65c;
+    padding: 10px 25px; 
+}
+
+.container_full {
+    width: 100%; 
+}
+
+.box {
+    animation: circle 5s infinite;
+    clip-path: circle(75%);
+    height: 150px;
+    width: 150px;
+  }
+  
+@keyframes circle {
+    0% { clip-path: circle(75%); }
+    50% { clip-path: circle(25%); }
+    100% { clip-path: circle(75%); }
+  }
+
+ul.posts {
+    list-style-type: none;
+    padding: 0px;
+    margin: 16px 0px 0px 0px;
+    border-top: 1px solid #e0e0e0;
+}
+
+div.post-tabs ul.posts {
+    margin: 0px;
+    border-top: none;
+}
+
+ul.posts li.post {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+ul.posts li.post:hover {
+    background-color: #f0f0f0;
+}
+div.post-date {
+    float: right;
+}
+div.post-author {
+    font-weight: bold;
+}
+
+.post-author a {
+    color: #3a93d3f1;
+}
+
+.color_link {
+    color: #3a93d3f1;
+}
+
+div.post-thumbnail {
+    position: absolute;
+}
+div.post-content {
+    margin-left: 48px;
+    min-height: 48px;
+}
+
+div.pagination {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 75px;
+}
+
+/* .post-body h1 {
+    font-size: 140%;
+}
+.post-body h2 {
+    font-size: 130%;
+}
+.post-body h3 {
+    font-size: 120%;
+} */
+.table.followers tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.diagonal1 {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.h-center {
+    text-align: center; 
+}
+.row {
+    margin-top: 25px; 
+}
+
+.font_change {
+    font-family: 'Ranchers', cursive;
+    font-weight: bold;
+}
+
+.progress {
+    height: 30px;
+    margin-bottom: 0;
+}
+ .progress_name { 
+    font-size: 16px; 
+ }
+
+ #footer {
+    padding-top: 10px; 
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center; 
+ }
+
+ .content {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+ }
+
+ul.comments {
+    list-style-type: none;
+    padding: 0px;
+    margin: 16px 0px 0px 0px;
+}
+
+ul.comments li.comment {
+    margin-left: 32px;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+ul.comments li.comment:nth-child(1) {
+    border-top: 1px solid #e0e0e0;
+}
+ul.comments li.comment:hover {
+    background-color: #f0f0f0;
+}
+.comment-author a {
+    font-weight: bold;
+    color: #3a93d3f1;
+}
+div.comment-thumbnail {
+    position: absolute;
+}
+div.comment-content {
+    margin-left: 48px;
+    min-height: 48px;
+}
+div.comment-form {
+    margin: 16px 0px 16px 32px;
+}
+
+div.comment-date {
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown-menu li a {
+        color: white;
+    }
+    .font_change {
+        font-size: 3vh;
+    }
+    .size_change {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 769px) {
+    .font_change {
+        font-size: 3vh;
+    }
+    .size_change {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+

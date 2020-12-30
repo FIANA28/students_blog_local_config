@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macros.html" as macros %}
+
+{% block title %}Student Worries{% endblock %}
+
+{% block page_content %}
+    <div>
+        <h2>Hello, {% if current_user.is_authenticated %}{{ current_user.username }}{% else %}Stranger{% endif %}!</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-lg-4 container_bgr">
+                <p class="h5">Small worries...</p>
+                <p class="h4">New worries...</p>
+                <p class="h3">Big worries...</p>
+            </div>
+            <div class="col-md-6 col-lg-8">
+                    <h1 class='h-center'><span class="font_change">Welcome to Student Worries Blog</span><img class="box size_change" src="static/student_blog3.png" width="100" height="100"></h1>
+            </div>
+        </div>
+    </div>
+<div class=container_full>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 33.33%">
+          <span class="progress_name">Find right answers!</span>
+        </div>
+        <div class="progress-bar progress-bar-info progress-bar-striped" style="width: 33.33%">
+          <span class="progress_name">Share your experience!</span>
+        </div>
+        <div class="progress-bar progress-bar-warning" style="width: 33.33%">
+          <span class="progress_name">Comment!</span>
+        </div>
+    </div>
+    <div class="diagonal1">
+        <img src="static/student_worries5.jpg" class="img-responsive" alt="Student worries image">
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <div>
+            {% if current_user.can(Permission.WRITE) %}
+            {{ wtf.quick_form(form) }}
+            {% endif %}
+        </div>
+        <div>
+            <h3 class="text-center">Latest Posts</h3>
+        </div>
+        <div class="post-tabs">
+            <ul class="nav nav-tabs">
+                <li{% if not show_followed %} class="active"{% endif %}><a href="{{ url_for('.show_all') }}">All</a></li>
+                {% if current_user.is_authenticated %}
+                <li{% if show_followed %} class="active"{% endif %}><a href="{{ url_for('.show_followed') }}">Followers</a></li>
+                {% endif %}
+            </ul>
+        {% include '_posts.html' %}
+        <!-- <ul class="posts">
+            {% for post in posts %}
+            <li class="post">
+                <div class="post-thumbnail">
+                    <a href="{{ url_for('.user', username=post.author.username) }}">
+                        <img class="img-rounded profile-thumbnail" src="{{ post.author.gravatar(size=40) }}">
+                    </a>
+                </div>
+                <div class="post-content">
+                    <div class="post-date">{{ moment(post.timestamp).fromNow() }}</div>
+                    <div class="post-author"><a href="{{ url_for('.user', username=post.author.username) }}">{{ post.author.username }}</a></div>
+                    <div class="post-title"><strong>{{ post.title }}</strong></div>
+                    <div class="post-body">{{ post.body }}</div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul> -->
+    </div>
+</div>
+{% if pagination %}
+<div class="pagination">
+    {{ macros.pagination_widget(pagination, '.index') }}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+{{ pagedown.include_pagedown() }}
+{% endblock %}
