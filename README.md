@@ -19,11 +19,17 @@ Credits:
  - requirements (cd)
  - tests (cd)
  - venv (bin (python3,flask,pip), lib)
+ 
  .env file, 
+ 
  .flaskenv file, 
+ 
  .gitignore
+ 
  config.py
+ 
  hello.py
+ 
  README.md
 
 
