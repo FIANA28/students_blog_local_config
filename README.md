@@ -13,24 +13,18 @@ Credits:
 5. For more detailed information contact FIANA28 on Github profile.
 
  Basic structure of application: 
- - app (cd)
+ app (cd)
  -> auth; main; static; templates
- - migration (cd)
- - requirements (cd)
- - tests (cd)
- - venv (bin (python3,flask,pip), lib)
- 
+ migration (cd)
+ requirements (cd)
+ tests (cd)
+ venv (bin (python3,flask,pip), lib)
  .env file, 
- 
  .flaskenv file, 
- 
- .gitignore
- 
- config.py
- 
- hello.py
- 
- README.md
+ .gitignore,
+ config.py,
+ hello.py,
+ README.md.
 
 
 
