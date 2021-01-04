@@ -14,14 +14,14 @@ Credits:
 
 Content: 
  Basic structure of application: 
- - app (folder)
+ - app (cd)
  -> auth
  -> main
  -> static
  -> templates
- - migration (folder)
- - requirements (folder)
- - tests (folder)
+ - migration (cd)
+ - requirements (cd)
+ - tests (cd)
  - venv (bin (python3,flask,pip), lib)
  .env file, 
  .flaskenv file, 
