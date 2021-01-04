@@ -14,10 +14,7 @@ Credits:
 
  Basic structure of application: 
  - app (cd)
- -> auth
- -> main
- -> static
- -> templates
+ -> auth; main; static; templates
  - migration (cd)
  - requirements (cd)
  - tests (cd)
