@@ -2,20 +2,38 @@ StudentBlog Project
 ======
 Resourses:
 
- - Project based on the directions from second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com) with Python, Flask and MySQL
+ - Project made with with Python, Flask and MySQL, with the directions from second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com) 
 
 Credits: 
 
 - FAVICON generator: https://favicon.io/
-- UNSPLASH <span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeswin Thomas</a> on <a href="https://unsplash.com/s/photos/students?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
+- UNSPLASH:
+<span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeswin Thomas</a> on <a href="https://unsplash.com/s/photos/students?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 <span>Photo by <a href="https://unsplash.com/@kiyun911?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kiyun Lee</a> on <a href="https://unsplash.com/s/photos/students-computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
 <span>Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/s/photos/blog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-Content: 
 
+Content: 
+ Basic structure of application: 
+ - app (folder)
+ -> auth
+ -> main
+ -> static
+ -> templates
+ - migration (folder)
+ - requirements (folder)
+ - tests (folder)
+ - venv (bin (python3,flask,pip), lib)
+ .env file, 
+ .flaskenv file, 
+ .gitignore
+ config.py
+ hello.py
+ README.md
+
+Home Page - navbar
+Blueprint
 - User role implementation presented is a hybrid between discrete roles and permissions.
-- Profile Page of the User, where a summary of the user’s participation in the website is presented.
+- Profile Page of the User, where a summary of the user’s participation in the website is presented(profile info, blog-posts, 
 - User-Level Profile Editor and Administrator-Level Profile Editor in two different forms
 - Administrator-Level Profile: allows administrators to edit a user’s email, username, confirmed status, and role.
 - User Avatar: user avatars provided by Gravatar, the leading avatar service.
