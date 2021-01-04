@@ -11,7 +11,7 @@ div a {
     color: white;
 }
 
-div p a, .nav-tabs li a {
+div p a, .nav-tabs li a, .name_about {
     color: #3a93d3f1;
 }
 
@@ -127,7 +127,7 @@ div.pagination {
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
-.h-center {
+.h-center, .center_about {
     text-align: center; 
 }
 .row {
