@@ -6,10 +6,9 @@ StudentWorriesBlog Project
 4. StudentBlog is made with Python, Flask and MySQL, with the directions from second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com)
 Credits:
 * FAVICON generator: https://favicon.io/
-<span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeswin Thomas</a> on <a href="https://unsplash.com/s/photos/students?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-<span>Photo by <a href="https://unsplash.com/@kiyun911?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kiyun Lee</a> on <a href="https://unsplash.com/s/photos/students-computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-<span>Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/s/photos/blog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
+* <span>Photo by <a href="https://unsplash.com/@jeswinthomas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeswin Thomas</a> on <a href="https://unsplash.com/s/photos/students?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+* <span>Photo by <a href="https://unsplash.com/@kiyun911?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kiyun Lee</a> on <a href="https://unsplash.com/s/photos/students-computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+* <span>Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/s/photos/blog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 5. For more detailed information contact FIANA28 on Github profile.
 
  Basic structure of application: 
