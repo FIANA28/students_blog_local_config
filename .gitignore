@@ -38,6 +38,9 @@ nosetests.xml
 # SQLite databases
 *.sqlite
 
+#configuration file
+config.py
+
 # Virtual environment
 venv
 .env
