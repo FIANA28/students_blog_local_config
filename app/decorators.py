@@ -4,6 +4,7 @@ from flask_login import current_user
 from .models import Permission
 
 # Custom decorators that check user permissions
+# Mukautetut sisustajat, jotka tarkistavat käyttäjien oikeudet
 # decorators are built with the help of the functools package from the Python standard library, and return an error code 403,#
 def permission_required(permission):
     def decorator(f):

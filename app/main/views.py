@@ -202,7 +202,7 @@ def followed_by(username):
 
 @main.route('/all')
 @login_required
-# The set_cookie() function takes the cookie name and the value as the first two argu‐ ments. The max_age optional argument sets the number of seconds until the cookie expires.
+# The set_cookie() function takes the cookie name and the value as the first two arguments. The max_age optional argument sets the number of seconds until the cookie expires.
 def show_all():
     resp = make_response(redirect(url_for('.index')))
     resp.set_cookie('show_followed', '', max_age=30*24*60*60)
