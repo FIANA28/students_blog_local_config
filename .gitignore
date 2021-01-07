@@ -38,6 +38,9 @@ nosetests.xml
 # SQLite databases
 *.sqlite
 
+#MySQL database
+students_blog.sql
+
 #configuration file
 config.py
 
